@@ -1,0 +1,9 @@
+.hrms-dashboard-container {
+    display: flex;
+  }
+  
+  .hrms-layout-dashboard-content-area {
+    flex-grow: 1;
+    display: block; /* Ensure it's visible */
+  }
+  

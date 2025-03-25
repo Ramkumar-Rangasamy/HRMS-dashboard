@@ -1,0 +1,402 @@
+.mp-all-scroll-slection{
+  overflow-y: auto;
+  height:calc(100vh - 90px);
+}
+
+.mp-all-scroll-slection::-webkit-scrollbar {
+  width: 0px;
+}
+
+.mp-pic-ttracking-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px 30px 30px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.mp-pic-contain-profile-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.mp-pic-contain-profile-section .mp-pic-profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.mp-pic-contain-profile-section .mp-pic-contain-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.mp-pic-contain-container h2 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30.26px;
+  letter-spacing: 0%;
+  color: #000000;
+  margin: 0;
+}
+
+.mp-pic-contain-container .mp-pic-contain-item-two {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.78px;
+  letter-spacing: 0%;
+  color: #00000080;
+  margin: 0;
+}
+
+.mp-ttracking-section .mp-tt-last-updated {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: 0%;
+  color: #757575;
+}
+
+.mp-tt-text-time-buttons-sub-container {
+  display: flex;
+  gap: 30px;
+}
+
+.mp-tt-text-time-buttons-sub-container .mp-tt-text-time-buttons {
+  display: flex;
+  flex-direction: column;
+}
+.mp-tt-text-time-buttons-sub-container .mp-tt-text-time-buttons p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: 0%;
+}
+
+.mp-time-in-icon,
+.mp-time-out-icon {
+  color: #178bff;
+}
+
+.time-in,
+.time-out {
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.time-in {
+  background: #178bff;
+  color: white;
+  width: 160px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.78px;
+  letter-spacing: 1px;
+}
+
+.time-out {
+  background-color: white;
+  color: #178bff;
+  width: 160px;
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid #178bff;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+/*Announcement-Selection =========Start=========*/
+
+.ACYF-mp-total-container {
+  display: flex;
+  gap: 40px;
+  padding: 15px 100px 30px 30px;
+}
+
+.ACYF-mp-Announcement-Calendar-container {
+  width: 376px;
+}
+
+/*---- common css style in title and iocns total three including===start---*/
+
+.mp-title-and-icon-style-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mp-title-and-icon-style-container h3 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30.26px;
+  letter-spacing: 0%;
+}
+
+.mp-title-and-icon-style-container img {
+  width: 24px;
+  height: 24px;
+}
+
+/*---- common css style in title and iocns total three including===end---*/
+
+.ACYF-mp-Announcement-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 20px;
+  background: #fafafa;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width:290px;
+  height: 80px;
+}
+
+.ACYF-mp-Announcement-card img {
+  width: 35px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.ACYF-mp-Announcement-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ACYF-mp-Announcement-items strong {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.78px;
+}
+
+.ACYF-mp-Announcement-items p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #00000080;
+  margin: 0;
+}
+/*Announcement-Selection =========End=========*/
+
+/* Calendar with Date Picker =========Start=========*/
+.calendar-container {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  background: #FAFAFA;
+  max-width: 376px;
+}
+
+/* Header Styling */
+.custom-day-picker .rdp-caption {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/* Chevron Icons */
+.rdp-chevron {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+/* Month Navigation */
+.custom-day-picker .rdp-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Weekday Labels */
+.custom-day-picker .rdp-head {
+  font-weight: bold;
+  color: #666;
+}
+
+/* Day Cells */
+.custom-day-picker .rdp-day {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  padding: 0px !important;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  font-size: 14px;
+  border: 0.75px solid #d5d4df !important;
+}
+
+/* Selected Day with BLUE BOX */
+.custom-day-picker .rdp-day_selected {
+  background-color: #007bff !important;
+  color: #ffffff !important;
+  font-weight: bold;
+  border-radius: 5px !important;
+  border: 2px solid #007bff; /* Blue Box Effect */
+}
+.rdp-selected .rdp-day_button {
+  border: none !important;
+  border-radius: 0px !important;
+  background-color: #007bff !important;
+  color: #ffffff;
+}
+
+/* Hover Effect */
+.custom-day-picker .rdp-day:not(.rdp-day_selected):hover {
+  background-color: #e6f0ff;
+}
+
+/* Disabled Days */
+.custom-day-picker .rdp-day_disabled {
+  color: #ccc;
+}
+/* ======Calendar with Date Picker =========End=========*/
+
+/*==========Feed Section =============Start======== */
+
+.mp-Your-feed-container {
+  width:100%;
+  max-width:900px;
+}
+
+.mp-Your-feed-post-card-backg {
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.mp-Your-feed-post-card-backg
+.mp-yf-post-inside-card{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width:100%;
+  max-width:900px;
+}
+
+.mp-yf-post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mp-yf-post-header img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.mp-yf-post-header div strong {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+.mp-yf-post-header div p {
+  margin: 0;
+  color: #00000080;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.52px;
+}
+
+.mp-yf-post-items-container{
+  display: flex;
+  gap: 20px;
+}
+
+.mp-yf-post-items-container .mp-yf-main-poster-image{
+  width: 361px;
+  height: 220px;
+  background: #f6c8c8;
+}
+.mp-yf-actions-text-post-area p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  margin: 0;
+  padding-bottom: 70px;
+}
+.mp-yf-actions-controls {
+  border-top: 1px solid #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  flex-wrap: wrap;  /* Allows wrapping on small screens */
+  gap: 10px; /* Adds spacing when stacked */
+}
+
+.mp-yf-action-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  color: #555;
+  font-size: 14px;
+  cursor: pointer;
+  min-width: auto; /* Ensures buttons shrink if needed */
+  flex: 1; /* Makes buttons flexible */
+  text-align: center;
+  justify-content: center; /* Center text & icon */
+  padding: 8px 10px;
+}
+
+.mp-yf-action-btn:hover {
+  color: #1877f2; /* Facebook Blue */
+}
+
+/* Ensure profile menu adapts */
+.profile-menu {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0; /* Prevents it from shrinking too much */
+}
+
+.profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.dropdown-icon {
+  font-size: 12px;
+  color: #555;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+  .time-in,
+  .time-out {
+    width: 155px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .mp-pic-ttracking-container {
+    padding:30px ;
+  }
+
+  .ACYF-mp-total-container {
+    gap: 25px;
+    padding:30px;
+  }
+
+  .mp-Your-feed-post-card-backg .mp-yf-post-inside-card {
+    gap: 20px;
+  }
+}

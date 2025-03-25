@@ -1,0 +1,95 @@
+.hrms-dashboard-header-container {
+  background: #178bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hrms-dhc-lr-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1330px; /* Limits max width */
+  height: 88px;
+  gap: 1rem;
+}
+
+.hrms-dhc-header-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 50px;
+}
+
+.hrms-dhc-header-left h1{
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54.46px;
+  letter-spacing: 0%;
+
+}
+
+.hrms-dhc-Seacrh-box {
+  flex-grow: 1;
+  width: 100%;
+  max-width: 646px;
+  min-width: 250px; /* Ensures it doesn't get too small */
+  height: 44px;
+  color: #8E8E8E;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+}
+
+.hrms-dhc-header-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap; /* Ensures wrapping on smaller screens */
+}
+
+.hrms-dhc-create-post-btn {
+  background: white;
+  color:#000000;
+  width: 163px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: 0%;
+
+}
+
+.hrms-dhc-header-icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.hrms-dhc-profile-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1440px) {
+  .hrms-dashboard-header-container{
+    padding: 0px 95px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .hrms-dashboard-header-container{
+    padding: 0px 30px 0px 95px;
+  }
+}
